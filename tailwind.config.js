@@ -1,9 +1,15 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'my-bg': 'url("/src/assets/images/bg.png")'
+      },
+    },
   },
+
   daisyui: {
+
     themes: [
       {
         doctortheme: {
