@@ -7,26 +7,26 @@ import './info.css'
 const Information = () => {
     return (
         <div className='flex justify-between '>
-            <div class="card c-size lg:card-side bg-gradient-to-r from-secondary to-primary shadow-xl">
+            <div className="card c-size lg:card-side bg-gradient-to-r from-secondary to-primary shadow-xl">
                 <figure className='ml-4'><img src={clock} alt="Album" /></figure>
-                <div class="card-body flex items-center text-white">
+                <div className="card-body flex items-center text-white">
                     <div>
-                        <h2 class="card-title">Opening Hours</h2>
+                        <h2 className="card-title">Opening Hours</h2>
                         <p>Lorem Ipsum is simply dummy text of the pri</p>
                     </div>
                 </div>
             </div>
-            <div class="card c-size lg:card-side bg-accent">
+            <div className="card c-size lg:card-side bg-accent">
                 <figure className='ml-4'><img src={marker} alt="Album" /></figure>
-                <div class="card-body text-white">
-                    <h2 class="card-title text-white">Visit our location</h2>
+                <div className="card-body text-white">
+                    <h2 className="card-title text-white">Visit our location</h2>
                     <p>Brooklyn, NY 10036, United States</p>
                 </div>
             </div>
-            <div class="card c-size lg:card-side bg-gradient-to-r from-secondary to-primary shadow-xl">
+            <div className="card c-size lg:card-side bg-gradient-to-r from-secondary to-primary shadow-xl">
                 <figure className='ml-4'><img src={phone} alt="Album" /></figure>
-                <div class="card-body text-white">
-                    <h2 class="card-title">Contact us now</h2>
+                <div className="card-body text-white">
+                    <h2 className="card-title">Contact us now</h2>
                     <p>Lorem Ipsum is simply dummy text of the pri</p>
                 </div>
             </div>
